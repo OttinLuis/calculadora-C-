@@ -22,23 +22,23 @@ int main(int argc, char *argv[]) {
 switch(op){
     case 1:
     res = n1 + n2;
-        printf("a soma e: %f.\n", res);
+        printf("a soma é: %f.\n", res);
         break;
     case 2:
     res = n1 * n2;
-        printf("a multiplicao e: %f.\n", res);
+        printf("a multiplicação é: %f.\n", res);
         break;
     case 3:
     res = n1 - n2;
-        printf("a subtracao e: %f.\n", res);
+        printf("a subtração é: %f.\n", res);
         break;
     case 4:
         if(n2 == 0){
-            printf("divisao por zero");
+            printf("divisão por zero");
         }
             else{
              res = n1 / n2;
-                printf("a divisao e: %f.\n", res);
+                printf("a divisão é: %f.\n", res);
             }
 }           break;
 

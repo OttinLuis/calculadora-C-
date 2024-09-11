@@ -40,7 +40,7 @@ switch(op){
              res = n1 / n2;
                 printf("a divisao e: %g\n", res);
             }
-}
+}           break;
 
     return 0;
 }

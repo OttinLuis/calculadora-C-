@@ -22,15 +22,15 @@ int main(int argc, char *argv[]) {
 switch(op){
     case 1:
     res = n1 + n2;
-        printf("a soma e: %g\n", res);
+        printf("a soma e: %f.\n", res);
         break;
     case 2:
     res = n1 * n2;
-        printf("a multiplicao e: %g\n", res);
+        printf("a multiplicao e: %f.\n", res);
         break;
     case 3:
     res = n1 - n2;
-        printf("a subtracao e: %g\n", res);
+        printf("a subtracao e: %f.\n", res);
         break;
     case 4:
         if(n2 == 0){
@@ -38,7 +38,7 @@ switch(op){
         }
             else{
              res = n1 / n2;
-                printf("a divisao e: %g\n", res);
+                printf("a divisao e: %f.\n", res);
             }
 }           break;
 
